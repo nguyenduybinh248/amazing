@@ -10,10 +10,6 @@ def index(request):
 
 
 def create(request):
-    # category = Category.objects.create(name='phụ kiện', slug='phu-kien')
-    category = Category()
-    category.name = 'phụ kiện'
-    category.slug = 'phu-kien'
-    category.save()
+    category = Category.objects.create(name='áo len', slug='ao-len')
     data = {'abc': 'abc'}
     return render(request, 'baseadmin.html', data)
