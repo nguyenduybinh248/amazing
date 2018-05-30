@@ -1,8 +1,8 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-<title>Women's Fashion a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>Amazing shop</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 						&times;</button>
 					<h4 class="modal-title" id="myModalLabel">
-						Don't Wait, Login now!</h4>
+						Đăng nhập </h4>
 				</div>
 				<div class="modal-body modal-body-sub">
 					<div class="row">
@@ -58,17 +58,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="sap_tabs">
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
-										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Sign in</span></li>
-										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Sign up</span></li>
+										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Đăng nhập</span></li>
+										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Đăng ký</span></li>
 									</ul>
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="facts">
 											<div class="register">
 												<form action="#" method="post">
-													<input name="Email" placeholder="Email Address" type="text" required="">
-													<input name="Password" placeholder="Password" type="password" required="">
+													<input name="Email" placeholder="Email" type="text" required="">
+													<input name="Password" placeholder="Mật khẩu" type="password" required="">
 													<div class="sign-up">
-														<input type="submit" value="Sign in"/>
+														<input type="submit" value="Đăng nhập"/>
 													</div>
 												</form>
 											</div>
@@ -79,12 +79,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="facts">
 											<div class="register">
 												<form action="#" method="post">
-													<input placeholder="Name" name="Name" type="text" required="">
-													<input placeholder="Email Address" name="Email" type="email" required="">
-													<input placeholder="Password" name="Password" type="password" required="">
-													<input placeholder="Confirm Password" name="Password" type="password" required="">
+													<input placeholder="Tài khoản " name="Name" type="text" required="">
+													<input placeholder="Email" name="Email" type="email" required="">
+													<input placeholder="Mật khẩu" name="Password" type="password" required="">
+													<input placeholder="Xác nhận mật khẩu" name="Password" type="password" required="">
 													<div class="sign-up">
-														<input type="submit" value="Create Account"/>
+														<input type="submit" value="Tạo tài khoản"/>
 													</div>
 												</form>
 											</div>
@@ -109,7 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="row text-center sign-with">
 								<div class="col-md-12">
 									<h3 class="other-nw">
-										Sign in with</h3>
+										Đăng nhập bằng</h3>
 								</div>
 								<div class="col-md-12">
 									<ul class="social">
@@ -127,7 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<script>
-		$('#myModal88').modal('show');
+		 {#$('#myModal88').modal('show');#}
 	</script>
 	<div class="header">
 		<div class="container">
@@ -140,10 +140,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="cart box_1">
 				<a href="checkout.html">
 					<div class="total">
-					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-					<img src="images/bag.png" alt="" />
+					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> sản phẩm)</div>
+					<img src="{% static 'images/bag.png' %}" alt="" />
 				</a>
-				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+				<p><a href="javascript:;" class="simpleCart_empty">Giỏ hàng trống</a></p>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
@@ -163,10 +163,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html" class="act">Home</a></li>
+						<li class="active"><a href="index.html" class="act">Trang chủ</a></li>
 						<!-- Mega Menu -->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm <b class="caret"></b></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="row">
 									<div class="col-sm-3">
@@ -206,17 +206,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</ul>
 						</li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="short-codes.html">Short Codes</a></li>
-						<li><a href="mail.html">Mail Us</a></li>
+						<li><a href="about.html">Liên hệ</a></li>
+						<li><a href="mail.html">Gửi mail</a></li>
 						<li>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
 				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
 				<div class="search_form">
 					<form action="#" method="post">
-						<input id="search_input" type="text" name="Search" placeholder="Search...">
-						<input type="submit" value="Send">
+						<input id="search_input" type="text" name="Search" placeholder="Tìm kiếm">
+						<input type="submit" value="Tìm">
 					</form>
 				</div>
 			</div>
@@ -236,8 +235,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="newsletter">
 		<div class="container">
 			<div class="col-md-6 w3agile_newsletter_left">
-				<h3>Newsletter</h3>
-				<p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
+				<h3>Thông báo</h3>
+				<p>Bạn muốn nhận được tin tức mới nhất về các sản phẩm, chúng tôi sẽ thông báo cho bạn</p>
 			</div>
 			<div class="col-md-6 w3agile_newsletter_right">
 				<form action="#" method="post">
@@ -254,8 +253,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3_footer_grids">
 				<div class="col-md-3 w3_footer_grid">
-					<h3>Contact</h3>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+					<h3>Liên hệ</h3>
+					<p>abcxyz</p>
 					<ul class="address">
 						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
@@ -263,17 +262,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
-					<h3>Information</h3>
+					<h3>Thông tin</h3>
 					<ul class="info">
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="mail.html">Contact Us</a></li>
-						<li><a href="short-codes.html">Short Codes</a></li>
-						<li><a href="faq.html">FAQ's</a></li>
-						<li><a href="products.html">Special Products</a></li>
+						<li><a href="mail.html">Liên hệ</a></li>
+						<li><a href="faq.html">Hỏi đáp</a></li>
+						<li><a href="products.html">Sản phẩm đặc biệt</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
-					<h3>Category</h3>
+					<h3>Danh mục</h3>
 					<ul class="info">
 						<li><a href="dresses.html">Dresses</a></li>
 						<li><a href="sweaters.html">Sweaters</a></li>
@@ -283,12 +280,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
-					<h3>Profile</h3>
+					<h3>Chuyển đến</h3>
 					<ul class="info">
-						<li><a href="products.html">Summer Store</a></li>
-						<li><a href="checkout.html">My Cart</a></li>
+						<li><a href="products.html">Cửa hàng</a></li>
+						<li><a href="checkout.html">Giỏ hàng</a></li>
 					</ul>
-					<h4>Follow Us</h4>
+					<h4>Theo dõi</h4>
 					<div class="agileits_social_button">
 						<ul>
 							<li><a href="#" class="facebook"> </a></li>
@@ -304,7 +301,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="footer-copy">
 
 			<div class="container">
-				<p>&copy; 2016 Women's Fashion. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<p>&copy; Amazing shop</p>
 			</div>
 		</div>
 	</div>

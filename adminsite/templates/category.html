@@ -1,0 +1,33 @@
+{% extends 'baseadmin.html' %}
+{% load static %}
+{% block content %}
+    <h3>Category</h3>
+<div class="table-responsive">
+        <table class="table table-hover">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Created at</th>
+                <th>Updated at</th>
+                <th>action</th>
+            </tr>
+            <tbody id="categorys">
+           {% for category in categories %}
+                <tr class="tr{{ category.slug }}">
+                    <td>{{ category.id }}</td>
+                    <td><a href=""></a>{{ category.name }}</td>
+                    <td>{{ category.created_at}}</td>
+                    <td>{{ category.updated_at}}</td>
+                    <td>
+                        <a href="" class="btn btn-xs btn-info">show</a>
+
+                        <button class="btn btn-xs btn-warning"  data-slug="{{ category.slug }}">edit</button>
+                        <button class="btn btn-xs btn-danger"  data-slug="{{ category.slug }}">delete</button>
+
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

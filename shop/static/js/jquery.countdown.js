@@ -143,7 +143,7 @@
 			.removeClass('static')
 			.animate({top:0,opacity:0},'fast',function(){
 				digit.remove();
-			})
+			});
 
 		replacement
 			.delay(100)
