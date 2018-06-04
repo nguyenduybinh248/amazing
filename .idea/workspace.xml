@@ -4,12 +4,10 @@
     <list default="true" id="82cbba7c-97b4-4ded-97cd-f73ab405a225" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminsite/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminsite/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminsite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminsite/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminsite/static/js/jquery.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/adminsite/templates/baseadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminsite/templates/baseadmin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminsite/templates/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminsite/templates/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminsite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webshop/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/webshop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="47" />
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -70,7 +68,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminsite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="60">
               <caret line="6" column="57" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="57" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -82,8 +80,8 @@
       <file leaf-file-name="baseadmin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminsite/templates/baseadmin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="303">
+              <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -103,8 +101,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="109" column="16" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="16" />
+            <state relative-caret-position="585">
+              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -112,8 +110,8 @@
       <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminsite/templates/category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+            <state relative-caret-position="93">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -121,8 +119,8 @@
       <file leaf-file-name="category.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adminsite/category.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="555">
+              <caret line="37" column="156" selection-start-line="37" selection-start-column="156" selection-end-line="37" selection-end-column="156" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -162,7 +160,6 @@
         <option value="$PROJECT_DIR$/admanager/templates/category.html" />
         <option value="$PROJECT_DIR$/admanager/views.py" />
         <option value="$PROJECT_DIR$/shop/urls.py" />
-        <option value="$PROJECT_DIR$/webshop/settings.py" />
         <option value="$PROJECT_DIR$/shop/views.py" />
         <option value="$PROJECT_DIR$/shop/models.py" />
         <option value="$PROJECT_DIR$/webshop/urls.py" />
@@ -170,6 +167,7 @@
         <option value="$PROJECT_DIR$/adminsite/models.py" />
         <option value="$PROJECT_DIR$/adminsite/urls.py" />
         <option value="$PROJECT_DIR$/adminsite/templates/baseadmin.html" />
+        <option value="$PROJECT_DIR$/webshop/settings.py" />
         <option value="$PROJECT_DIR$/adminsite/templates/category.html" />
         <option value="$PROJECT_DIR$/adminsite/category.py" />
       </list>
@@ -201,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,7 +250,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -298,7 +296,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.38759065" visible="true" weight="0.06401138" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.38759065" visible="true" weight="0.16500711" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17983872" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32957292" />
@@ -306,12 +304,12 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -618,13 +616,13 @@
     <entry file="file://$PROJECT_DIR$/webshop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="47" />
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adminsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="60">
           <caret line="6" column="57" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="57" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -632,31 +630,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="109" column="16" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adminsite/templates/baseadmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="303">
+          <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adminsite/templates/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+        <state relative-caret-position="93">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adminsite/category.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="555">
+          <caret line="37" column="156" selection-start-line="37" selection-start-column="156" selection-end-line="37" selection-end-column="156" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

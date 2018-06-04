@@ -1,5 +1,6 @@
 {% extends 'baseadmin.html' %}
 {% load static %}
+{% load humanize %}
 {% block content %}
     <h3>Category</h3>
      <button type="button" class="btn btn-xs btn-info btn-lg" data-toggle="modal" data-target="#add-cate">Add new category</button>
@@ -41,19 +42,16 @@
                 <th>Updated at</th>
                 <th>action</th>
             </tr>
-            <tbody id="categorys">
+            <tbody id="categories">
            {% for category in categories %}
                 <tr class="tr{{ category.slug }}">
                     <td>{{ category.id }}</td>
                     <td><a href=""></a>{{ category.name }}</td>
-                    <td>{{ category.created_at}}</td>
-                    <td>{{ category.updated_at}}</td>
+                    <td>{{ category.created_at|naturaltime}}</td>
+                    <td>{{ category.updated_at|naturaltime}}</td>
                     <td>
-                        <a href="" class="btn btn-xs btn-info">show</a>
-
                         <button class="btn btn-xs btn-warning"  data-slug="{{ category.slug }}">edit</button>
                         <button class="btn btn-xs btn-danger"  data-slug="{{ category.slug }}">delete</button>
-
                     </td>
                 </tr>
             {% endfor %}
@@ -73,7 +71,10 @@
                    'csrfmiddlewaretoken':$( "input[name='csrfmiddlewaretoken']" ).val()
                },
                success: function (response) {
-                   console.log(response.name);
+                   console.log(response);
+                   $('#add-cate').modal('hide');
+                   toastr.success('add category successfully');
+                   $('#categories').prepend('<tr class="tr'+ response.slug +'"><td>'+ response.id +'</td><td><a href=""></a>'+ response.name +'</td><td>'+ response.created_at +'</td><td>'+ response.updated_at +'</td><td><button class="btn btn-xs btn-warning"  data-slug="'+ response.slug +'">edit</button><button class="btn btn-xs btn-danger"  data-slug="'+ response.slug +'">delete</button></td></tr>');
                }
            });
         });

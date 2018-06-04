@@ -3,6 +3,7 @@ from adminsite.models import Category
 from django.http import HttpResponse
 from django.http import JsonResponse
 from django.utils.text import slugify
+from django.contrib.humanize.templatetags.humanize import naturaltime
 from django.core import serializers
 # Create your views here.
 
@@ -18,7 +19,7 @@ def _get_unique_slug(self):
 
 
 def index(request):
-    data = {'categories': Category.objects.all()}
+    data = {'categories': Category.objects.all().order_by('-created_at')}
     return render(request, 'category.html', data)
 
 
@@ -30,6 +31,8 @@ def create(request):
             name=name,
             slug=slug
         )
+        category.created = naturaltime(category.created_at)
+        category.updated = naturaltime(category.updated_at)
         # category_se = serializers.serialize('json', [category])
         # return JsonResponse({'category': category_se})
-        return JsonResponse({'name': name})
+        return JsonResponse({'name': category.name, 'slug': category.slug, 'created_at': category.created, 'id': category.id, 'updated_at': category.updated})
